@@ -229,7 +229,7 @@ struct NativeApp {
         ImGui_ImplOpenGL3_NewFrame();
         ImGui::NewFrame();
 
-#if 1
+#if 0
         ImGui::Begin("Hello", nullptr, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse);
         ImGui::SetWindowPos({0.0f, 0.0f});
         ImGui::SetWindowSize(io.DisplaySize);
