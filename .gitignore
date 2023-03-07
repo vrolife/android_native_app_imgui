@@ -32,3 +32,6 @@
 *.app
 
 build
+out
+.cache
+skia
